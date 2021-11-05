@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: #FFF2F1;
 }
 
 * {
@@ -97,6 +97,7 @@ p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    margin: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -106,6 +107,15 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+}
+
+p>img {
+    width: 20%;
+    float: right;
+    margin: 1.5em;
+    margin-right: 5em;
+    margin-left: 5em;
+
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
