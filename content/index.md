@@ -1,12 +1,12 @@
 ---
-Title: Home
+Title: Hem
 Description: This is our index page.
 ---
 
-Om mig
+Hem
 ==========================
 
-![Bild på mig](%assets_url%/img/alexis.jpg "test")
+![Bild på mig](%assets_url%/img/alexis.jpg "Bild på mig") {.logo-me}
 
 Mitt namn är Alexis Norberg och jag är född i Spanien men uppväxt i Uddevalla norr om Göteborg. Under min uppväxt har jag spelat både fotboll och handboll men runt tonåren föll valet på fotbollen som gjorde att jag läste på ett fotbollsgymnasium. Efter studenten blev det några års arbete innan jag flyttade till Spanien för att studera spanska och "leva livet" tillsammans med min sambo. Efter perioden i Spanien återvände vi till Stockholm för att både jobba och studera.
 

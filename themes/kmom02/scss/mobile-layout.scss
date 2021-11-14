@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+    .main {
+        display: grid;
+    }
+
+    .main p {
+        display: grid;
+    }
+
+    .main .logo-me {
+        padding-left: 1px; // Kolla sidan!
+    }
+
+    .main p:first-of-type {
+        margin-left: auto;
+        margin-right: auto;
+        order: 1;
+    }
+}
