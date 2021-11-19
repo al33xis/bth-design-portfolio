@@ -12,10 +12,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'header-navbar';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 @import 'mobile-layout';
+@import 'technologies';
 
 
 * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 h1,
