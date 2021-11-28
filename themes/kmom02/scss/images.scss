@@ -7,10 +7,19 @@ img {
     width: 200px;
     float: right;
     padding-left: 2em;
+    filter: $logo-me;
 }
 
 .site-header img {
     margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
+}
+
+.logo {
+    filter: $logo-logo;
+}
+
+.rapport-img {
+    filter: $img-rapport;
 }
