@@ -14,3 +14,43 @@
 .site-header {
     text-align: center;
 }
+
+.nav-animation a {
+    color: $navbar-color;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.nav-animation a::before,
+.nav-animation a::after {
+    position: absolute;
+    opacity: 0;
+    font-size: 25px;
+    // font-size: 35px;
+    top: 7px;
+    // top: 0px;
+    transition: all 0.3s;
+}
+
+.nav-animation a::before {
+    content: '(';
+    left: 0;
+    transform: translateX(10px);
+}
+
+.nav-animation a::after {
+    content: ')';
+    right: 0;
+    transform: translateX(-10px);
+}
+
+.nav-animation a:hover::before,
+.nav-animation a:hover::after {
+    opacity: 1;
+    transform: translateX(0);
+}

@@ -13,4 +13,4 @@ Jag har skapat ett eget tema som heter "kmom02" där jag använder två olika fo
 - images.scss
 - footer.scss (lite "problem" då jag inte kan få att footern ska läggas under min bild utan att använda tillräckligt mycket "em", tillfälligt löst genom att sätta en width på body)
 
-Min responsivitet ändrar display till grid för att kunna arrangera ordningen på mina element, där bl.a. bilden under "Hem" läggs sist. Däremot så strular menu-baren (den fanns där från början och har inte bemästrat hur jag ändrar den än).
+OBS! Under uppbyggnad!

@@ -6493,10 +6493,11 @@ img {
 }
 
 .main .logo-me {
-  width: 200px;
+  width: 160px;
   float: right;
-  padding-left: 2em;
+  margin-left: 2em;
   filter: brightness(0.7);
+  box-shadow: 5px 5px 5px gray;
 }
 
 .site-header img {
@@ -6511,6 +6512,10 @@ img {
 
 .rapport-img {
   filter: brightness(0.7);
+}
+
+.gallery-image img {
+  box-shadow: 5px 5px 5px gray;
 }
 
 .footer {
@@ -6544,6 +6549,44 @@ img {
   text-align: center;
 }
 
+.nav-animation a {
+  color: #a3a3a3;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 10px;
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.nav-animation a::before,
+.nav-animation a::after {
+  position: absolute;
+  opacity: 0;
+  font-size: 25px;
+  top: 7px;
+  transition: all 0.3s;
+}
+
+.nav-animation a::before {
+  content: "(";
+  left: 0;
+  transform: translateX(10px);
+}
+
+.nav-animation a::after {
+  content: ")";
+  right: 0;
+  transform: translateX(-10px);
+}
+
+.nav-animation a:hover::before,
+.nav-animation a:hover::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;
@@ -6551,7 +6594,7 @@ img {
 
 .nav ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 1em 0;
   list-style: none;
 }
@@ -6652,6 +6695,7 @@ img {
   background-color: #c0c0c0;
   border-radius: 1em;
   align-items: center;
+  box-shadow: 5px 5px 5px gray;
 }
 
 .upper-inside p {

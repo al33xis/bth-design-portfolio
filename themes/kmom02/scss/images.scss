@@ -4,10 +4,12 @@ img {
 }
 
 .main .logo-me {
-    width: 200px;
+    width: 160px;
     float: right;
-    padding-left: 2em;
+    // padding-left: 2em;
+    margin-left: 2em;
     filter: $logo-me;
+    box-shadow: 5px 5px 5px rgb(128, 128, 128);
 }
 
 .site-header img {
@@ -22,4 +24,8 @@ img {
 
 .rapport-img {
     filter: $img-rapport;
+}
+
+.gallery-image img {
+    box-shadow: 5px 5px 5px rgb(128, 128, 128);
 }
